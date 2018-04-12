@@ -126,8 +126,92 @@
         }
     </style>
     <title>Mua vé online</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/cookcodesmenu.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+            crossorigin="anonymous"></script>
+    <script src="js/jquery.cookcodesmenu.js"></script>
+    <script>
+        $(function () {
+            $('#menu').cookcodesmenu({
+                brand: 'MonSoonFestival'
+            });
+        });
+    </script>
+    <style>
+        .cookcodesmenu_menu {
+            visibility: hidden;
+        }
+
+        @media all and (max-width: 414px) {
+            .cookcodesmenu_menu {
+                visibility: visible;
+            }
+        }
+
+    </style>
 </head>
 <body>
+<div class="menu_mobile">
+    <ul id="menu">
+        <li><a href="introduce.html">GIỚI THIỆU</a>
+        </li>
+        <li><a href="artist.html">NGHỆ SĨ</a>
+        </li>
+        <li><a href="shop.html">SHOP</a>
+        </li>
+        <li><a href="DoiTac.html">ĐỐI TÁC</a>
+        </li>
+        <li><a href="#">TÌM HIỂU THÊM</a>
+            <ul>
+                <li><a href="event2016.html">MMF 2016</a></li>
+                <li><a href="event2015.html">MMF 2015</a></li>
+                <li><a href="event2014.html">MMF 2014</a></li>
+                <li><a href="TrachNhiemXaHoi.html">TRÁCH NHIỆM XÃ HỘI</a></li>
+            </ul>
+        </li>
+        <li><a href="#">THƯ VIỆN</a>
+            <ul>
+                <li><a href="gioithieu.html">HÌNH ẢNH</a></li>
+                <li><a href="gioithieusinger.html">VIDEO</a></li>
+            </ul>
+        </li>
+        <li><a href="LienHe.html">LIÊN HỆ</a>
+        </li>
+    </ul>
+    <div class="jquery-script-ads" align="center">
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-2783044520727903";
+        /* jQuery_demo */
+        google_ad_slot = "2780937993";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+        </script>
+        <script type="text/javascript"
+                src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
 <div class="relative">
     <nav>
         <header>
