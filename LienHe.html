@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/cssLayout.css" rel="stylesheet" type="text/css"/>
+    <link href="css/LienHe.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese"
+          rel="stylesheet">
+    <style>
+        /*đổi chữ placeholder thành màu trắng*/
+        ::-webkit-input-placeholder {
+            color: #959595;
+            font-size: 18px;
+        }
+
+        @media all and (max-width: 414px) {
+            body {
+                background-attachment: scroll;
+                text-align: justify;
+            }
+
+            .time a {
+                display: none;
+            }
+
+            .relative {
+                display: none;
+            }
+
+            .title p {
+                font-size: 40px;
+                line-height: 70px;
+                position: absolute;
+                bottom: 50px;
+                left: 20%;
+            }
+
+            article {
+                width: 100%;
+                margin-left: 0%;
+            }
+
+            .map {
+                height: 100%;
+            }
+
+            .info1 {
+                width: 90%;
+                height: 100%;
+                clear: both;
+                margin-left: 10%;
+            }
+
+            .info2 {
+                width: 90%;
+                height: 100%;
+                clear: both;
+                margin-left: 10%;
+            }
+
+            .info3 {
+                margin-top: 300px;
+                width: 90%;
+                height: 100%;
+                clear: both;
+                margin-left: 10%;
+            }
+
+            p {
+                font-size: 40px;
+                line-height: 80px;
+            }
+        }
+    </style>
+    <title>Liên hệ - Monsoon Music Festival 2017</title>
+</head>
+<body>
+<div class="relative">
+    <nav>
+        <header>
+            <a href="index.html"> <img src="images/logo.PNG"/></a>
+        </header>
+        <div class="menu_double" style="padding: 20px;">
+            <ul>
+                <li><a href="introduce.html">GIỚI THIỆU</a>
+                </li>
+                <li><a href="artist.html">NGHỆ SĨ</a>
+                </li>
+                <li><a href="shop.html">SHOP</a>
+                </li>
+                <li><a href="DoiTac.html">ĐỐI TÁC</a>
+                </li>
+                <li><a href="#">TÌM HIỂU THÊM</a>
+                    <ul>
+                        <li><a href="event2016.html">MMF 2016</a></li>
+                        <li><a href="event2015.html">MMF 2015</a></li>
+                        <li><a href="event2014.html">MMF 2014</a></li>
+                        <li><a href="TrachNhiemXaHoi.html">TRÁCH NHIỆM XÃ HỘI</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">THƯ VIỆN</a>
+                    <ul>
+                        <li><a href="gioithieu.html">HÌNH ẢNH</a></li>
+                        <li><a href="gioithieusinger.html">VIDEO</a></li>
+                    </ul>
+                </li>
+                <li><a href="LienHe.html">LIÊN HỆ</a>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div class="tim">
+                <input style="background-color: rgba(91, 91, 91, 0.56);border-radius:20px; " type="text" name="timkiem"
+                       value=""
+                       placeholder="Tìm kiếm"/>
+                <div class="logo">
+                    <a href="#"> <img src="images/facebook.png" width="30px" height="30px"/></a>
+                    <a href="#"> <img src="images/youtube.png" width="30px" height="30px"/></a>
+                    <a href="#"><img src="images/instagram.png" width="30px" height="30px"/></a>
+                </div>
+                <a class="write" style="color:#FFFFFF"> © Copyright 2017 Powered by Creg</a>
+            </div>
+        </footer>
+    </nav>
+</div>
+<article>
+
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <!--Code gì thì code chỉ được code ở trong này nhé-->
+    <div class="container">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1757.4779629391144!2d105.76591603581934!3d21.034051320713168!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b9470a0ee1%3A0x2ffb89052ebf037e!2sMD+Complex+Tower!5e0!3m2!1sen!2s!4v1522393906020"
+                    width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="info">
+
+            <div class="info1">
+                <div class="row1">
+                    <input type="text" name="name" placeholder="    Họ và tên" class="contact-input">
+                    <input type="email" name="email" placeholder="    Địa chỉ email" class="contact-input">
+                </div>
+                <div class="row4">
+                    <input type="text" name="subject" placeholder="    Tiêu đề" class="contact-input">
+                </div>
+                <div class="row2">
+                    <textarea rows="5" class="contact-input" placeholder="  Nội dung"></textarea>
+                </div>
+                <div class="row3">
+                    <button>
+                        GỬI PHẢN HỒI
+                    </button>
+                </div>
+            </div>
+
+            <div class="info2">
+                <div class="contact-info">
+                    <h4>THÔNG TIN LIÊN HỆ</h4>
+
+                    <ul class="infoz" style="list-style-type: none;">
+                        <li>
+                            <div class="icon1"><img src="images/iconPlace1.png"></div>
+                            <div class="contentz">
+                                <hr>
+                                <p>32M Lý Nam Đế, phường Cửa Đông</p>
+                                <p>quận Hoàn Kiếm, Hà Nội, Việt Nam</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon1"><img src="images/logoPlace2.png"></div>
+                            <div class="contentz">
+                                <hr>
+                                <p>7:30am - 5:30pm</p>
+                                <p>10:00am - 7:30pm</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon1"><img src="images/logoPlace3.png"></div>
+                            <div class="contentz">
+                                <hr>
+                                <p>Hotline Bán vé:<br> <a href="tel:0949000622">0949000622</a></p>
+                                <p>Hotline Thông tin:<br> <a href="tel:0949000633">0949000633</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon1"><img src="images/logoPlace4.png"></div>
+                            <div class="contentz">
+                                <hr>
+                                <p>info@thanhviet.pro.vn</p>
+                                <p>http://thanhviet.pro.vn</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="info3">
+                <div class="fb-page" style="margin-top: 20px" data-href="https://www.facebook.com/thanhviet.pro.vn/"
+                     data-tabs="timeline"
+                     data-width="390" data-height="470" data-small-header="false" data-adapt-container-width="true"
+                     data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/thanhviet.pro.vn/" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/thanhviet.pro.vn/">Thanh Việt Production</a></blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+</body>
+</html>

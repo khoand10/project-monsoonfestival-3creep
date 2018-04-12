@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    min-width: 1280px;
+}
+
+.relative {
+    position: relative;
+}
+
+nav {
+    height: 100%;
+    width: 20%;
+    background: #090909;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+}
+
+/*Phần này ai cần thêm ảnh thì bỏ chú thích đi nhé*/
+article {
+    min-height: 400px;
+    width: 80%;
+    margin-left: 20%; /*background-color: red;*/
+
+    height: 100%;
+
+}
+
+header {
+    padding: 0px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+header img {
+    height: auto;
+    width: auto;
+}
+
+.menu_double {
+    min-height: 60%;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+.menu_double > ul > li {
+    display: inline-block;
+    padding-left: 20px;
+    text-align: justify;
+    position: relative;
+    width: 100%;
+}
+
+.menu_double > ul > li:hover {
+    background-color: #FF8000;
+}
+
+.menu_double > ul > li > a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 0px;
+    line-height: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.menu_double > ul {
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.menu_double ul ul {
+    position: absolute;
+    top: 1px;
+    display: none;
+    padding-left: 95%;
+    margin: 0px;
+    list-style: none;
+    width: 50%;
+}
+
+.menu_double ul ul a {
+    display: block;
+    line-height: 30px;
+    background: rgba(10, 10, 10, 0.8);
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.menu_double > ul > li:hover > ul {
+    float: top;
+    display: block;
+}
+
+.menu_double ul ul a:hover {
+    color: #FF0;
+}
+
+/*css tìm kiếm */
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo a {
+    margin-right: 30px;
+}
+
+.tim input {
+    max-width: 216px;
+    height: 34px;
+    border-radius: 7px;
+}
+
+.tim {
+    padding-left: 20px;
+}
+
+/*đổi chữ placeholder thành màu trắng*/
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.landautien {
+    font-size: 80px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.lanthu2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.even1-1 .up-top {
+    font-size: 85px;
+    font-weight: 200;
+}
+.event2-2 .up-top1 {
+    font-size: 85px;
+    font-weight: 200;
+}

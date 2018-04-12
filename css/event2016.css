@@ -1,0 +1,129 @@
+.container{
+    height: 3150px;
+}
+.container .header{
+    position: relative;
+
+    width: auto;
+    height: 390px;
+}
+.header .time{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+    width: 150px;
+    height: 30px;
+    background: #0c0c0c;
+    opacity: 0.7;
+    position: absolute;
+}
+.time a{
+    color: #FFFFFF;
+}
+.header img{
+    position: absolute;
+    left: 20%;
+    bottom: 1px;
+    width: 670px;
+    height: auto;
+}
+.title{
+    position: relative;
+
+    height: 300px;
+    width: auto;
+}
+.title p{
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.event1{
+    padding-top: 130px;
+
+    width: 100%;
+    height: 730px;
+}
+.event1 .even1-1 {
+
+    width: 44%;
+    height: auto;
+    float: left;
+    color: #FFFFFF;
+}
+.even1-1 h2{
+    padding-bottom: 30px;
+}
+.even1-1 p{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+.event1 .even1-2{
+
+    width: 54%;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+}
+.even1-2 img{
+    box-shadow: 0px 0px 5px #f3f3f3;
+}
+.event2{
+
+    width: 100%;
+    height: 700px;
+}
+.event2 .event2-1 {
+
+    width: 54%;
+    height: auto;
+    float: left;
+    color: #FFFFFF;
+}
+.event2-1 img{
+    box-shadow: 0px 0px 5px #f3f3f3;
+}
+.event2 .event2-2 {
+
+    width: 44%;
+    height: auto;
+    float: left;
+    color: #FFFFFF;
+}
+.event3{
+
+    width: 100%;
+    height: 900px;
+}
+.event3 p{
+    color: #FFFFFF;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.event3 .p1{
+    height: auto;
+    width: 49%;
+    float: left;
+}
+.event3 .p2{
+    height: auto;
+    width: 49%;
+    float: left;
+}
+.event3 .img{
+
+    padding-top: 490px;
+    padding-left: 290px;
+}
+.event3 .img img{
+    width: 670px;
+    height: 136px;
+
+}

@@ -1,0 +1,112 @@
+.container {
+    width: 100%;
+    height: 1400px;
+    /*border: red solid 1px;*/
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.container01 {
+    height: 33%;
+    width: 100%;
+    /*border: #FF8000 solid 0.5px;*/
+}
+
+.container02 {
+    height: 33%;
+    width: 100%;
+    /*border: #FF8000 solid 0.5px;*/
+    margin-top: 3%;
+}
+
+.container03 {
+    height: 33%;
+    width: 100%;
+    /*border: #FF8000 solid 0.5px;*/
+    margin-top: 3%;
+}
+
+.info {
+    height: 100%;
+    width: 30%;
+    /*border: #FF8000 solid 0.1px;*/
+    float: left;
+    background: white;
+    margin-left: 3%;
+    position: relative;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+/*.info button {*/
+/*position: absolute;*/
+/*bottom: 0;*/
+/*left: 0;*/
+/*}*/
+
+.info img {
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.subInfo {
+    height: 40%;
+    width: 90%;
+    border: gainsboro solid 1px;
+    margin-left: 5%;
+    padding: 0.5%;
+    position: relative;
+}
+
+.subInfo a {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 2%;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.subInfo a:hover {
+    color: orangered;
+}
+
+.subInfo button {
+    margin-top: 30%;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    background-color: forestgreen;
+    border-radius: 10%;
+}
+
+.subInfo button:hover {
+    background-color: coral;
+    color: white;
+}
+
+.info img {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    max-width: 100%;
+
+}
+
+.info img:hover {
+    transform: scale(1.3, 1.3);
+}

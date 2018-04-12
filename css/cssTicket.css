@@ -1,0 +1,64 @@
+article{
+    text-align: center;
+}
+article .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu_select {
+    width: auto;
+    height: auto;
+    margin-left: 28%;
+}
+
+.select1 {
+    float: left;
+    width: 200px;
+    border: 1px solid gray;
+    height: 80px;
+    cursor: pointer;
+}
+
+.select1:hover {
+    background-color: #65AC4C;
+    color: white;
+}
+
+.select1 h1 {
+    color: #FF9822;
+}
+
+.select1 span {
+    color: gray;
+}
+
+.select1 span:hover {
+    color: white;
+    background-color: #65AC4C;
+}
+
+.combo_ticket {
+    clear: both;
+    padding-top: 50px;
+}
+
+.combo1 {
+    width: 345px;
+    height: 433px;
+    float: left;
+    margin-left: 120px;
+}
+
+#combo1 {
+    background-color: #65AC4C;
+}
+
+#combo2 {
+    background-color: #92278F;
+}
+
+#combo3 {
+    background-color: #FF9822;
+}
