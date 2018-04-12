@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/cssLayout.css" rel="stylesheet" type="text/css"/>
     <link href="css/shop.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese"
@@ -11,8 +12,120 @@
         body {
             background-image: url("images/bg.jpg");
         }
+
+        @media all and (max-width: 414px) {
+            body {
+                max-width: 414px;
+                margin: 0px;
+                min-width: 414px;
+                text-align: justify;
+            }
+
+            .time a {
+                display: none;
+            }
+
+            .relative {
+                display: none;
+            }
+
+            .header h1 {
+                font-size: 35px;
+                position: absolute;
+                top: 100px;
+                left: 20%;
+            }
+
+            .header img {
+                width: 330px;
+                position: absolute;
+                top: 100px;
+                left: 10%;
+            }
+
+            .title p {
+                font-size: 14px;
+                line-height: 40px;
+                position: absolute;
+                top: 0px;
+            }
+
+            article {
+                width: 414px;
+                margin: 0px;
+            }
+
+            .menu-combo {
+                width: 414px;
+                min-height: 700px;
+                margin-top: 1000px;
+                margin-left: 27px;
+            }
+
+            .menu-combo h2 {
+                padding-left: 0px;
+            }
+
+            .menu-combo .combo {
+                width: 350px;
+            }
+
+            .menu .content {
+                margin-top: 30px;
+                margin-right: 0px;
+                top: 150px;
+                position: absolute;
+                left: 30px;
+                width: 370px;
+                min-height: 430px;
+            }
+
+            .menu .select {
+                position: absolute;
+                left: 5px;
+                width: 400px;
+                height: 70px;
+                border: 0.5px solid #FFFFFF;
+                text-align: center;
+            }
+
+            .select .s1 {
+                width: 200px;
+            }
+
+            .select .s2 {
+                width: 200px;
+            }
+
+            .select .s3 {
+                border: 0.5px solid #FFFFFF;
+                height: 70px;
+                width: 200px;
+                clear: both;
+            }
+
+            .combo .c1-2 {
+                width: 320px;
+            }
+
+            .content .c1 {
+                margin-right: 0px;
+            }
+
+            .content .c2 {
+                margin-right: 0px;
+            }
+
+            .content .c3 {
+                margin-right: 0px;
+            }
+
+            .muangay {
+                left: 100px;
+            }
+        }
     </style>
-    <title>Layout</title>
+    <title>Mua vé online</title>
 </head>
 <body>
 <div class="relative">
@@ -24,18 +137,18 @@
             <ul>
                 <li><a href="introduce.html">GIỚI THIỆU</a>
                 </li>
-                <li><a href="artist.html">NGHỆ SĨ</a>
+                <li><a href="#">NGHỆ SĨ</a>
                 </li>
-                <li><a href="shop.html">SHOP</a>
+                <li><a href="#">SHOP</a>
                 </li>
-                <li><a href="DoiTac.html">ĐỐI TÁC</a>
+                <li><a href="#">ĐỐI TÁC</a>
                 </li>
                 <li><a href="#">TÌM HIỂU THÊM</a>
                     <ul>
-                        <li><a href="event2016.html">MMF 2016</a></li>
-                        <li><a href="event2015.html">MMF 2015</a></li>
-                        <li><a href="event2014.html">MMF 2014</a></li>
-                        <li><a href="TrachNhiemXaHoi.html">TRÁCH NHIỆM XÃ HỘI</a></li>
+                        <li><a href="#">MMF 2016</a></li>
+                        <li><a href="#">MMF 2015</a></li>
+                        <li><a href="#">MMF 2014</a></li>
+                        <li><a href="#">TRÁCH NHIỆM XÃ HỘI</a></li>
                     </ul>
                 </li>
                 <li><a href="#">THƯ VIỆN</a>
@@ -44,7 +157,7 @@
                         <li><a href="gioithieusinger.html">VIDEO</a></li>
                     </ul>
                 </li>
-                <li><a href="LienHe.html">LIÊN HỆ</a>
+                <li><a href="#">LIÊN HỆ</a>
                 </li>
             </ul>
         </div>
@@ -109,7 +222,7 @@
                             <a>Khu vực dành riêng x</a>
                             <a id="enony1"></a>
                         </div>
-                        <a href="http://ticket.monsoonfestival.vn/" class="submit_buy">MUA NGAY</a>
+                        <a class="submit_buy">MUA NGAY</a>
                     </div>
                 </div>
                 <div class="c2">
@@ -128,7 +241,7 @@
                             <a>Khu vực dành riêng x</a>
                             <a id="enony2"></a>
                         </div>
-                        <a href="http://ticket.monsoonfestival.vn/" class="submit_buy">MUA NGAY</a>
+                        <a class="submit_buy">MUA NGAY</a>
                     </div>
                 </div>
                 <div class="c3">
@@ -147,7 +260,7 @@
                             <a>Khu vực dành riêng x</a>
                             <a id="enony3"></a>
                         </div>
-                        <a href="http://ticket.monsoonfestival.vn/" class="submit_buy">MUA NGAY</a>
+                        <a class="submit_buy">MUA NGAY</a>
                     </div>
                 </div>
             </div>
@@ -169,7 +282,7 @@
                         (Pepsi, Aquafina, Tuborg)</a><i class="fa fa-check-circle"
                                                         style="font-size:22px;color: #65ac4c"></i><br>
                 </div>
-                <a href="http://ticket.monsoonfestival.vn/" class="muangay">MUA NGAY</a>
+                <a class="muangay">MUA NGAY</a>
             </div>
             <div style="background: #CF5F4E" class="combo">
                 <div class="c1-1">
@@ -183,7 +296,7 @@
                         (Pepsi, Aquafina, Tuborg) </a><i class="fa fa-check-circle"
                                                          style="font-size:22px;color: #65ac4c"></i><br>
                 </div>
-                <a href="http://ticket.monsoonfestival.vn/" class="muangay">MUA NGAY</a>
+                <a class="muangay">MUA NGAY</a>
             </div>
             <div style="background: #65ac4c" class="combo">
                 <div class="c1-1">
@@ -195,7 +308,7 @@
                     <a>Thưởng thức 3 cốc bia Tuborg </a><i class="fa fa-check-circle"
                                                            style="font-size:22px;color: #65ac4c"></i><br>
                 </div>
-                <a href="http://ticket.monsoonfestival.vn/" class="muangay">MUA NGAY</a>
+                <a class="muangay">MUA NGAY</a>
             </div>
             <div style="background: #65ac4c" class="combo">
                 <div class="c1-1">
