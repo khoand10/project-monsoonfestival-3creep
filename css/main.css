@@ -1,4 +1,3 @@
-
 /*css tìm kiếm */
 footer {
     position: absolute;
@@ -115,12 +114,16 @@ aside {
     width: 150px;
 }
 
-
+.khung img {
+    width: 200px;
+    height: 70px;
+}
 
 .author {
     font-style: italic;
     font-size: 13px;
 }
+
 #section0 {
     background-image: url("about_bg.jpg");
     padding-left: 100px;
@@ -131,10 +134,10 @@ aside {
     font-size: 13px;
 }
 
-#section2{
+#section2 {
     background-image: url("bg.jpg");
 }
 
-#section1{
+#section1 {
     background-image: url("about_bg2.jpg");
 }

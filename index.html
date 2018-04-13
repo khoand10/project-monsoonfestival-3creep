@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese"
           rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet'
@@ -31,8 +31,9 @@
         body {
             background-image: url("images/bg.jpg");
         }
+
         .menu_double ul ul {
-           width: 150%;
+            width: 150%;
         }
     </style>
     <title>Trang chủ</title>
@@ -58,6 +59,80 @@
         @media all and (max-width: 414px) {
             .cookcodesmenu_menu {
                 visibility: visible;
+            }
+
+            body {
+                max-width: 414px;
+                margin: 0px;
+                min-width: 414px;
+                text-align: justify;
+            }
+
+            .relative {
+                display: none;
+            }
+
+            .smalltext {
+                font-size: 14px;
+            }
+
+            #clockdiv {
+                width: 400px;
+                font-size: 20px;
+                padding-top: 60px;
+                margin-left: 10px;
+            }
+
+            #clockdiv div > span {
+                padding: 10px;
+            }
+
+            article {
+                margin-left: 0px;
+            }
+
+            #banner {
+                margin-left: 90px;
+            }
+
+            #time {
+                margin-left: 30px;
+                width: 350px;
+            }
+
+            #time a {
+                font-size: 18px;
+            }
+
+            .buy-and-detail {
+                padding-left: 50px;
+
+            }
+
+            .buy-and-detail > a {
+                font-size: 10px;
+                padding: 10px 12px;
+            }
+             h6{
+                padding: 0px;
+            }
+
+            aside {
+                max-width: 414px;
+                min-width: 414px;
+                margin-left: 0px;
+            }
+
+            .khung {
+                width: 414px;
+            }
+
+            section {
+                width: 414px;
+            }
+            .khung img{
+                width: 170px;
+                padding-right: 30px;
             }
         }
 
@@ -180,7 +255,7 @@
         <img width="100%" src="images/banner-vi.png"/>
     </div>
     <div class="menu-information">
-        <div id="time"><a>10-12 Tháng Mười Một 2017</a>
+        <div id="time"><a>10-12 Tháng Mười Một 2017</a><br>
             <i class="fa fa-map-marker" style="font-size:23px"></i><a>Hoàng Thành - Thăng Long - Hà Nội</a>
         </div>
         <div class="buy-and-detail">
@@ -191,11 +266,11 @@
     </div>
     <aside>
         <div class="khung">
-            <img class="picture" src="images/turborg.png" style="width: 200px; height: 100px;">
-            <img class="picture" src="images/vna.png" style="width: 200px; height: 100px;">
-            <img class="picture" src="images/thanhvietpro.png" style="width: 200px; height: 100px;">
-            <img class="picture" src="images/jetstar.png" style="width: 200px; height: 100px;">
-            <img class="picture" src="images/thearena.png" style="width: 200px; height: 100px;">
+            <img class="picture" src="images/turborg.png" >
+            <img class="picture" src="images/vna.png" >
+            <img class="picture" src="images/thanhvietpro.png" >
+            <img class="picture" src="images/jetstar.png" >
+            <img class="picture" src="images/thearena.png" >
         </div>
         <section id="demos">
             <div class="row">
