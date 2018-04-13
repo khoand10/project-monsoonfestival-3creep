@@ -5,6 +5,10 @@
  * www.nazmul.info
  * mailatnazmul@gmail.com
  */
+.menu_mobile{
+  height: 0px;
+}
+
 *:hover,
 *:focus {
   text-decoration: none;
