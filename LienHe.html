@@ -16,8 +16,18 @@
 
         @media all and (max-width: 414px) {
             body {
-                background-attachment: scroll;
+                max-width: 414px;
+                margin: 0px;
+                min-width: 414px;
                 text-align: justify;
+            }
+
+            .header img {
+                position: absolute;
+                bottom: 200px;
+                width: 414px;
+                height: auto;
+                left: 0%;
             }
 
             .time a {
@@ -26,6 +36,21 @@
 
             .relative {
                 display: none;
+            }
+
+            article {
+                width: 414px;
+                margin: 0px;
+                text-align: center;
+            }
+
+            .map iframe {
+                width: 400px;
+                height: 350px;
+            }
+
+            .map {
+                height: 400px;
             }
 
             .title p {
@@ -41,36 +66,38 @@
                 margin-left: 0%;
             }
 
-            .map {
-                height: 100%;
-            }
-
             .info1 {
                 width: 90%;
                 height: 100%;
                 clear: both;
-                margin-left: 10%;
+                margin-left: 0%;
             }
 
             .info2 {
                 width: 90%;
                 height: 100%;
                 clear: both;
-                margin-left: 10%;
+                margin-left: 0%;
             }
 
             .info3 {
-                margin-top: 300px;
+                margin-top: 100px;
                 width: 90%;
                 height: 100%;
                 clear: both;
-                margin-left: 10%;
+                margin-left: 0%;
             }
 
             p {
-                font-size: 40px;
-                line-height: 80px;
+                font-size: 20px;
+                line-height: 50px;
             }
+            .info1 button {
+                margin: 0;
+                position: absolute;
+                bottom: 50%;
+            }
+
         }
     </style>
     <title>Liên hệ - Monsoon Music Festival 2017</title>
