@@ -2,18 +2,135 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/cssLayout.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese"
+          rel="stylesheet">
     <link href="css/singer.css" type="text/css" rel="stylesheet">
     <script language="javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<style>
-    body{
-        background: url("/images/bg.jpg");
-    }
-</style>
+    <style>
+        body {
+            background: url("images/bg.jpg");
+        }
+        .myImg{
+            width: 230px;
+            height: 150px;
+        }
+
+        @media all and (max-width: 414px) {
+            body {
+                max-width: 414px;
+                margin: 0px;
+                min-width: 414px;
+                text-align: justify;
+            }
+
+            .header img {
+                position: absolute;
+                bottom: 200px;
+                width: 414px;
+                height: auto;
+                left: 0%;
+            }
+
+            .time a {
+                display: none;
+            }
+
+            .relative {
+                display: none;
+            }
+
+            article {
+                width: 414px;
+                margin: 0px;
+                text-align: center;
+            }
+
+            .mmenu {
+                clear: both;
+            }
+
+            .mmenu .myImg {
+                width: 400px;
+                height: 250px;
+            }
+        }
+    </style>
     <title>Images</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/cookcodesmenu.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+            crossorigin="anonymous"></script>
+    <script src="js/jquery.cookcodesmenu.js"></script>
+    <script>
+        $(function () {
+            $('#menu').cookcodesmenu({
+                brand: 'MonSoonFestival'
+            });
+        });
+    </script>
+    <style>
+        .cookcodesmenu_menu {
+            visibility: hidden;
+        }
+
+        @media all and (max-width: 414px) {
+            .cookcodesmenu_menu {
+                visibility: visible;
+            }
+        }
+
+    </style>
 </head>
 <body>
+<div class="menu_mobile">
+    <ul id="menu">
+        <li><a href="introduce.html">GIỚI THIỆU</a>
+        </li>
+        <li><a href="artist.html">NGHỆ SĨ</a>
+        </li>
+        <li><a href="shop.html">SHOP</a>
+        </li>
+        <li><a href="DoiTac.html">ĐỐI TÁC</a>
+        </li>
+        <li><a href="#">TÌM HIỂU THÊM</a>
+            <ul>
+                <li><a href="event2016.html">MMF 2016</a></li>
+                <li><a href="event2015.html">MMF 2015</a></li>
+                <li><a href="event2014.html">MMF 2014</a></li>
+                <li><a href="TrachNhiemXaHoi.html">TRÁCH NHIỆM XÃ HỘI</a></li>
+            </ul>
+        </li>
+        <li><a href="#">THƯ VIỆN</a>
+            <ul>
+                <li><a href="gioithieu.html">HÌNH ẢNH</a></li>
+                <li><a href="gioithieusinger.html">VIDEO</a></li>
+            </ul>
+        </li>
+        <li><a href="LienHe.html">LIÊN HỆ</a>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
 <div class="relative">
     <nav>
         <header>
@@ -64,126 +181,65 @@
 </div>
 <article>
     <div><h2 style="color: white; text-align: center; margin-top: 100px;"><b>VIDEOS</b></h2></div>
-    <div><a style="color: white">All /</a> <a style="color: white">2016 / </a><a style="color: white">2015 / </a><a style="color: white">2014 / </a><a style="color: white">Other</a></div>
+    <div><a style="color: white">All /</a> <a style="color: white">2016 / </a><a style="color: white">2015 / </a><a
+            style="color: white">2014 / </a><a style="color: white">Other</a></div>
     <div class="mmenu">
-        <img id="myImg" src="images/2.jpg" alt="Trolltunga, Norway" width="220px" height="140px">
+        <img class="myImg" src="images/2.jpg" alt="Trolltunga, Norway" >
     </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/3.jpg" alt="Trolltunga, Norway" >
+    </div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/4.jpg" alt="Trolltunga, Norway" >
     </div>
 
     <div class="mmenu">
-        <img id="myImg" src="images/3.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
+        <img class="myImg" src="images/5.jpg" alt="Trolltunga, Norway" >
     </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/6.jpg" alt="Trolltunga, Norway" >
+    </div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/7.jpg" alt="Trolltunga, Norway" >
+    </div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/8.jpg" alt="Trolltunga, Norway" >
+    </div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/9.jpg" alt="Trolltunga, Norway" >
+    </div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/10.jpg" alt="Trolltunga, Norway" >
+    </div>
+
+
+    <div class="mmenu">
+        <img class="myImg" src="images/11.jpg" alt="Trolltunga, Norway" >
     </div>
 
     <div class="mmenu">
-        <img id="myImg" src="images/4.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
+        <img class="myImg" src="images/12.jpg" alt="Trolltunga, Norway" >
     </div>
 
-    <div class="mmenu">
-        <img id="myImg" src="images/5.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
 
     <div class="mmenu">
-        <img id="myImg" src="images/6.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
+        <img class="myImg" src="images/13.jpg" alt="Trolltunga, Norway" >
     </div>
 
-    <div class="mmenu">
-        <img id="myImg" src="images/7.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
-
-    <div class="mmenu">
-        <img id="myImg" src="images/8.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
-
-    <div class="mmenu">
-        <img id="myImg" src="images/9.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
-
-    <div class="mmenu">
-        <img id="myImg" src="images/10.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
-
-    <div class="mmenu">
-        <img id="myImg" src="images/11.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
-
-    <div class="mmenu">
-        <img id="myImg" src="images/12.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
-
-    <div class="mmenu">
-        <img id="myImg" src="images/13.jpg" alt="Trolltunga, Norway" width="230px" height="150px">
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
 </article>
 
 <script type="text/javascript">
