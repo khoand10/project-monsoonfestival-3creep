@@ -6,6 +6,22 @@
     <link rel="stylesheet" href="css/docs.theme.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="css/cssLayout.css" rel="stylesheet" type="text/css"/>
+    <script language="javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Ẩn nội dung các menu con, trừ cái đầu tiên
+            $('.ulWrapper li:gt(0) .ulChildrent').hide();
+            //Sự kiện khi click vào 1 men cha
+            $('.aParent').click(function () {
+                //ẩn toàn bộ các menu con
+                $('.ulChildrent').slideUp();
+                //hiện menu con của menu cấp 1 hiện tại được click
+                $(this).parent('li').find('.ulChildrent').slideDown();
+            });
+        });
+    </script>
+
 
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -128,6 +144,9 @@
         }
 
     </style>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
 </head>
 <body>
 <div class="menu_mobile">
@@ -246,7 +265,7 @@
         <img width="100%" src="images/banner-vi.png"/>
     </div>
     <div class="menu-information">
-        <div id="time"><a>10-12 Tháng Mười Một 2017</a><br>
+        <div id="time"><a>10-12 Tháng Mười Một 2017</a>
             <i class="fa fa-map-marker" style="font-size:23px"></i><a>Hoàng Thành - Thăng Long - Hà Nội</a>
         </div>
         <div class="buy-and-detail">
@@ -257,11 +276,11 @@
     </div>
     <aside>
         <div class="khung">
-            <img class="picture" src="images/turborg.png">
-            <img class="picture" src="images/vna.png">
-            <img class="picture" src="images/thanhvietpro.png">
-            <img class="picture" src="images/jetstar.png">
-            <img class="picture" src="images/thearena.png">
+            <img class="picture" src="images/turborg.png" style="width: 200px; height: 100px;">
+            <img class="picture" src="images/vna.png" style="width: 200px; height: 100px;">
+            <img class="picture" src="images/thanhvietpro.png" style="width: 200px; height: 100px;">
+            <img class="picture" src="images/jetstar.png" style="width: 200px; height: 100px;">
+            <img class="picture" src="images/thearena.png" style="width: 200px; height: 100px;">
         </div>
         <section id="demos">
             <div class="row">

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href="css/cssLayout.css" rel="stylesheet" type="text/css"/>
-    <link href="css/main.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Giới thiệu</title>
+    <link href="css/mainfix.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
     <script language="javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <title>Layout</title>
+    <script src="script/jquery-1.8.2.min.js"></script>
     <style>
         * {
             box-sizing: border-box
@@ -129,6 +128,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/examples.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -152,127 +152,53 @@
             });
         });
     </script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/cookcodesmenu.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-            crossorigin="anonymous"></script>
-    <script src="js/jquery.cookcodesmenu.js"></script>
-    <script>
-        $(function () {
-            $('#menu').cookcodesmenu({
-                brand: 'MonSoonFestival'
-            });
-        });
-    </script>
-    <style>
-        .cookcodesmenu_menu {
-            visibility: hidden;
-        }
-
-        @media all and (max-width: 414px) {
-            .cookcodesmenu_menu {
-                visibility: visible;
-            }
-        }
-
-    </style>
 </head>
 <body>
-<div class="menu_mobile">
-    <ul id="menu">
-        <li><a href="introduce.html">GIỚI THIỆU</a>
-        </li>
-        <li><a href="artist.html">NGHỆ SĨ</a>
-        </li>
-        <li><a href="shop.html">SHOP</a>
-        </li>
-        <li><a href="DoiTac.html">ĐỐI TÁC</a>
-        </li>
-        <li><a href="#">TÌM HIỂU THÊM</a>
-            <ul>
-                <li><a href="event2016.html">MMF 2016</a></li>
-                <li><a href="event2015.html">MMF 2015</a></li>
-                <li><a href="event2014.html">MMF 2014</a></li>
-                <li><a href="TrachNhiemXaHoi.html">TRÁCH NHIỆM XÃ HỘI</a></li>
-            </ul>
-        </li>
-        <li><a href="#">THƯ VIỆN</a>
-            <ul>
-                <li><a href="gioithieu.html">HÌNH ẢNH</a></li>
-                <li><a href="gioithieusinger.html">VIDEO</a></li>
-            </ul>
-        </li>
-        <li><a href="LienHe.html">LIÊN HỆ</a>
-        </li>
-    </ul>
-</div>
-<script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-36251023-1']);
-    _gaq.push(['_setDomainName', 'jqueryscript.net']);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript';
-        ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-
-</script>
-<div class="relative">
-    <nav>
-        <header>
-            <a href="index.html"> <img src="images/logo.PNG"/></a>
-        </header>
-        <div class="menu_double" style="padding: 20px;">
-            <ul>
-                <li><a href="introduce.html">GIỚI THIỆU</a>
-                </li>
-                <li><a href="#">NGHỆ SĨ</a>
-                </li>
-                <li><a href="#">SHOP</a>
-                </li>
-                <li><a href="#">ĐỐI TÁC</a>
-                </li>
-                <li><a href="#">TÌM HIỂU THÊM</a>
-                    <ul>
-                        <li><a href="#">MMF 2016</a></li>
-                        <li><a href="#">MMF 2015</a></li>
-                        <li><a href="#">MMF 2014</a></li>
-                        <li><a href="#">TRÁCH NHIỆM XÃ HỘI</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">THƯ VIỆN</a>
-                    <ul>
-                        <li><a href="gioithieu.html">HÌNH ẢNH</a></li>
-                        <li><a href="gioithieusinger.html">VIDEO</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">LIÊN HỆ</a>
-                </li>
-            </ul>
-        </div>
-        <footer>
-            <div class="tim">
-                <input style="background-color: rgba(91, 91, 91, 0.56);border-radius:20px; " type="text" name="timkiem"
-                       value=""
-                       placeholder="Tìm kiếm"/>
-                <div class="logo">
-                    <a href="#"> <img src="images/facebook.png" width="30px" height="30px"/></a>
-                    <a href="#"> <img src="images/youtube.png" width="30px" height="30px"/></a>
-                    <a href="#"><img src="images/instagram.png" width="30px" height="30px"/></a>
-                </div>
-                <a class="write" style="color:#FFFFFF"> © Copyright 2017 Powered by Creg</a>
+<nav>
+    <header>
+        <a href="index.html"> <img src="images/logo.PNG"/></a>
+    </header>
+    <div class="menu_double" style="padding: 20px;">
+        <ul>
+            <li><a href="introduce.html">GIỚI THIỆU</a>
+            </li>
+            <li><a href="#">NGHỆ SĨ</a>
+            </li>
+            <li><a href="#">SHOP</a>
+            </li>
+            <li><a href="#">ĐỐI TÁC</a>
+            </li>
+            <li><a href="#">TÌM HIỂU THÊM</a>
+                <ul>
+                    <li><a href="#">MMF 2016</a></li>
+                    <li><a href="#">MMF 2015</a></li>
+                    <li><a href="#">MMF 2014</a></li>
+                    <li><a href="#">TRÁCH NHIỆM XÃ HỘI</a></li>
+                </ul>
+            </li>
+            <li><a href="#">THƯ VIỆN</a>
+                <ul>
+                    <li><a href="gioithieu.html">HÌNH ẢNH</a></li>
+                    <li><a href="gioithieusinger.html">VIDEO</a></li>
+                </ul>
+            </li>
+            <li><a href="#">LIÊN HỆ</a>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="tim">
+            <input style="background-color: rgba(91, 91, 91, 0.56);border-radius:20px; " type="text" name="timkiem"
+                   value="" placeholder="Tìm kiếm"/>
+            <div class="logo">
+                <a href="#"> <img src="images/facebook.png" width="30px" height="30px"/></a>
+                <a href="#"> <img src="images/youtube.png" width="30px" height="30px"/></a>
+                <a href="#"><img src="images/instagram.png" width="30px" height="30px"/></a>
             </div>
-        </footer>
-    </nav>
-</div>
+            <a class="write" style="color:#FFFFFF"> © Copyright 2017 Powered by Creg</a>
+        </div>
+    </footer>
+</nav>
 <article>
     <div id="fullpage">
         <div class="section " id="section0">
